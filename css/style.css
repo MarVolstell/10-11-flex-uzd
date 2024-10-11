@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+html, body, .container, aside, .imStupid, .mainAndExtra, main, .extra, .f{
+    height:100%
+}
+.container, aside, .imStupid, .related, .mainAndExtra, .f{
+    display: flex;
+}
+.f{
+    flex-direction: row-reverse;
+}
+.mainAndExtra, aside, .imStupid{
+    flex-direction: column;
+}
+.mainAndExtra, .container{
+    justify-content: center;
+}
+.imStupid, aside, .posts{
+    flex-grow: 1;
+}
+.mainAndExtra, .images{
+    flex-grow: 1.5;
+}
+.container{
+    width: 40%;
+    background-color: #e9e7e7;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+main, .hero, .Sidebar, .extra, header, footer, .images, .posts {
+    padding: 3px;
+    margin: 2px;
+}
+
+/*colors and height*/
+header{
+    background-color: #3fbacf;
+}
+main {
+    background-color: #f0d436;
+    height: 70%;
+}
+.extra{
+    background-color: #a5a5a5;
+    height: 30%;
+}
+.hero{
+    background-color: #c5affa;
+    height: 40%;
+}
+.Sidebar{
+    background-color: #86b431;
+    height: 60%;
+}
+.images{
+    background-color: #14aa6b;
+}
+.posts{
+    background-color: #ffbceb;
+}
+footer{
+    background-color: #ff9d1e;
+}
